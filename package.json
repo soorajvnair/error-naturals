@@ -1,0 +1,48 @@
+{
+  "name": "error-naturals",
+  "version": "0.1.0",
+  "description": "",
+  "homepage": "",
+  "author": {
+    "name": "soorajvnair",
+    "email": "snair@hootboard.com",
+    "url": ""
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "errors",
+    "error-messages",
+    "standard-errors",
+    "api-errors"
+  ],
+  "devDependencies": {
+    "nsp": "^2.6.3",
+    "eslint": "^4.1.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "jest": "^19.0.2",
+    "jest-cli": "^20.0.0"
+  },
+  "scripts": {
+    "prepublish": "nsp check",
+    "pretest": "eslint . --fix",
+    "test": "jest"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "jest": true,
+      "node": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soorajvnair/error-naturals.git"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "license": "MIT"
+}

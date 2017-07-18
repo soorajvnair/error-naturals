@@ -1,0 +1,18 @@
+{
+  "101": {
+    "error": {
+      "meta": {
+        "type": "error",
+        "status": 400,
+        "code": "INVALID_REQUEST",
+        "context_info": {
+          "ping": {
+            "message": "A ping request was made without revelant content"
+          }
+        },
+        "help_url": "http://developers.hootboard.com/docs/#errors",
+        "message": "A ping request was made without one or more required parameters"
+      }
+    }
+  }
+}
